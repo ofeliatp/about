@@ -1,0 +1,267 @@
+
+body {
+  margin: 0;
+  padding: 0; 
+ 
+}
+.nav {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.texto {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto;
+    padding-left: 30px;
+
+    
+}
+.about {
+    grid-column-start: 2;
+    grid-row: 2;
+    margin-top: 80px;
+}
+
+
+.imagenofe {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.texto2 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    
+}
+.more {
+    grid-column-start: 2;
+    grid-row: 2;
+}
+
+h1{  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 0.2rem;
+    color: blue;
+}
+
+h2{
+   display: flex; 
+   flex-direction: column;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   size: 0.2rem;
+   color: blue;
+   margin-bottom: 2px;
+}
+
+p{
+    display: grid;
+    justify-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    size: 1rem;
+    color: blue;
+}
+
+.contenedor {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: flex-start; */
+   
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto auto auto;
+}
+
+.card1 {
+    width: 240px;
+    margin-left: 20px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-top: 80px;
+    margin-left: 20px; */
+
+    
+    
+}
+
+
+.card2 {
+    width: 240px;
+    margin-top: 308px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-top: 240px;
+    margin-bottom: 80px; */
+    
+   
+   
+}
+
+.card3 {
+    margin-top: 546px;
+    width: 240px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 200px;
+    margin-top: 455px;
+    margin-right: 20px; */
+
+   
+
+}
+
+.card4 {
+    width: 240px;
+    
+    
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-top: 755px;
+    margin-right: 20px; */
+
+}
+
+.card5 {
+
+    width: 240px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-top: 955px;
+    margin-right: 20px; */
+
+}
+
+.card8 {
+    margin-right: 20px;
+    width: 240px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-top: 955px;
+    margin-right: 20px; */
+
+}
+
+.carrousel1 {
+margin-top: auto;
+margin-left: 20px;
+}
+.carrousel2 {
+  margin-top: auto;
+}
+.carrousel3 {
+  margin-top: auto;
+  margin-right: 20px;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 40px;
+   
+    background-color: blue;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.footer2 {
+    background-color: blue;  
+    display: flex;
+    height: auto;
+    justify-content: center; 
+    padding-right: 5px;
+}
+
+
+
+h4 {
+    margin: 2px -20px;
+    width: 100%;
+    text-align: right;
+    color:aliceblue;
+    position: absolute;
+    font-size: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.footer3 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: auto auto auto auto;
+}
+
+.contacto {
+    background-color: blue;
+    color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+.contacto1{
+display: flex;
+
+}
+.contacto-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.boton {
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    border-color: aliceblue; 
+    border: 1px solid; 
+    padding: 14px 16px 14px 16px;
+}
+
+.behance {
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.linkedin {
+    padding: 10px 10px 10px 10px;
+}
